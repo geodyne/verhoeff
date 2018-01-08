@@ -1,6 +1,6 @@
 {
   "name": "@skylab/verhoeff",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "verhoeff checksum generator and validator",
   "main": "index.js",
   "scripts": {
