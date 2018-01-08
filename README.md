@@ -5,41 +5,38 @@
 
 
 
-Find Verhoeff check digit
+##Find Verhoeff check digit
 
 
-###checksum(number)
+####checksum(number)
 
 returns checksum digit for a number
 
 ```
 
-> var verhoeff = require('@skylab/verhoeff');
-> var num = 78639;
-> var checksum = verhoeff.checksum(num);
-> console.log(checksum);
+$ var verhoeff = require('@skylab/verhoeff');
+$ var num = 78639;
+$ var checksum = verhoeff.checksum(num);
+$ console.log(checksum);
 2
+
 
 ```
 
 
-Verifying if a number is valid
+##Verifying if a number is valid
 
 
-###validate(number)
+####validate(number)
 
 verifies whether a number has a valid verhoeff checksum digit at end 
 
 
 ```
 
-> var verify = verhoeff.validate(786392);
-undefined
-> console.log(verify);
+$ var verify = verhoeff.validate(786392);
+$ console.log(verify);
 true
-undefined
-> 
-> 
 
 
 ```
