@@ -6,6 +6,12 @@
 
 
 Find Verhoeff check digit
+
+
+###checksum(number)
+
+returns checksum digit for a number
+
 ```
 
 > var verhoeff = require('@skylab/verhoeff');
@@ -18,6 +24,13 @@ Find Verhoeff check digit
 
 
 Verifying if a number is valid
+
+
+###validate(number)
+
+verifies whether a number has a valid verhoeff checksum digit at end 
+
+
 ```
 
 > var verify = verhoeff.validate(786392);
@@ -30,4 +43,9 @@ undefined
 
 
 ```
+
+
+### LICENSE
+
+MIT License
 
