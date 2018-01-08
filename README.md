@@ -5,10 +5,10 @@
 
 
 
-##Find Verhoeff check digit
+## Find Verhoeff check digit
 
 
-####checksum(number)
+#### checksum(number)
 
 returns checksum digit for a number
 
@@ -24,10 +24,10 @@ $ console.log(checksum);
 ```
 
 
-##Verifying if a number is valid
+## Verifying if a number is valid
 
 
-####validate(number)
+#### validate(number)
 
 verifies whether a number has a valid verhoeff checksum digit at end 
 
